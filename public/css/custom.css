@@ -1,0 +1,356 @@
+body {
+    background-color: #fff !important;
+}
+
+
+/* .eachcoin {
+    margin-bottom: 10px;
+}
+
+.price {
+    border : 1px solid green;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.coins {
+    height: 300px;
+}
+
+.coinlists {
+    width: 100px;
+} */
+
+
+/* 
+.header {
+    height: 70px;
+} */
+
+.logo {
+    width: 120px;
+    height: 70px;
+}
+
+.hamburger {
+    float: right;
+    height: 28px;
+    cursor: pointer;
+}
+
+.logobar {
+    vertical-align: middle;
+    height: 70px;
+    font-size: 20px
+}
+
+.coin_table {
+    width: 100%;
+}
+
+.coin_img {
+    width: 32px;
+    height: 32px;
+    float: left;
+    background-color: #fff;
+}
+
+.coin_select_img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+td.coin {
+    /* padding: 0px 5px; */
+    vertical-align: middle;
+    /* height: 45px; */
+}
+
+.display-hide {
+    display: none;
+}
+
+p.coin {
+    /* display: table; */
+    margin: 10px auto;
+    width: 120px;
+    cursor: pointer;
+}
+
+p.coin_select {
+    /* margin: 20px auto; */
+    background-color: #e2e2e2;
+}
+
+.coin_name {
+    /* display: table-cell; */
+    padding-left: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.nav_bar {
+    background-color: #999999;
+    color: #fff;
+    font-weight: normal !important;
+    font-size: 15px;
+    height: 30px;
+}
+
+.coin_header {
+    width: 192px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: normal !important;
+}
+
+.price_header {
+    width: 130px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: normal !important;
+}
+
+.macd_header {
+    width: 67px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: normal !important;
+}
+
+
+/* .right {
+    width: 70%;
+} */
+
+.chart {
+    min-width: 320px;
+    /* max-width: 800px; */
+    height: 220px;
+    /* margin: 0 auto; */
+}
+
+.coin_information {
+    height: 54px;
+    background-color: #fff;
+    padding: 7px !important;
+}
+
+.coin_select_name {
+    font-weight: bold;
+}
+
+#coinlists td {
+    padding: 0;
+    margin: 0;
+}
+
+#coinlists {
+    border-collapse: collapse;
+    padding-right: 0px;
+}
+
+#coinlists ::-webkit-scrollbar {
+    display: none !important;
+}
+
+
+/* .highcharts-container  {
+    width: 120px;
+} */
+
+
+/* 
+.loading-gif {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       155;
+    height:     100%;
+    width:      100%;
+    background: 
+                url('http://localhost:5000/icons/loadingCB.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+.loading-gif.loading {
+    display: block;
+}
+*/
+
+.price {
+    cursor: pointer;
+}
+
+.smacd {
+    cursor: pointer;
+}
+
+#progressbar2 {
+    background: #fff;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#progressbar2 .nanobar {
+    margin-bottom: 2em;
+}
+
+#progressbar2 .nanobar .bar {
+    background: #4f4f4f;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(148, 153, 158);
+    height: 6px;
+}
+
+main.py-4 {
+    padding-top: 0 !important;
+}
+/* main div.container {
+    margin-top: 50px;
+} */
+div.toolbar-icon {
+    height: 60px;
+    padding: 8px 15px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+span.menu-text {
+    vertical-align: middle !important;
+}
+
+div.dropdown-menu.show {
+    left: -32px !important;
+}
+
+span.description {
+    display: block;
+    font-size: 12px;
+    color: #999;
+}
+
+
+/* ==========================================================================
+Exchange part underneath main Chart
+========================================================================== */
+
+div#exchange-part {
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+div#exchange-part p.coin{
+    margin: 10px auto;
+    width: 100%;
+}
+
+span.coin_data_BTC, span.coin_data_USD {
+    /* display: table-cell; */
+    margin-left: 70px;
+    vertical-align: middle;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+span.coin_data_USD {
+    color: green;
+}
+
+span.coin_data_poloniex, span.coin_data_binance {
+    vertical-align: middle;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+span.coin_data_poloniex {
+    padding: 2px 15px;
+    background-color: lightgrey;
+    border: 1px solid;
+}
+
+span.coin_data_binance {
+    margin-left: 60px;
+}
+
+img.V-down {
+    margin: 0 auto;
+    width: 50px;
+    display: block;
+}
+
+/*************
+* Navbar     *
+*************/
+
+table.fixed_child {
+    position: fixed; 
+    height: 30px; 
+    z-index: 999; 
+    top: 58px;
+}
+
+/*******************************************
+* Left(Coin lists, Profits, Smacd charts)  *
+*******************************************/
+
+th.left {
+    width: 35%;
+}
+
+th.right {
+    width: 65%;
+}
+
+td.left {
+    padding: 0 !important; 
+    vertical-align: top;
+}
+
+td.right {
+    padding: 0 !important; 
+    vertical-align: top; 
+    background-color: #fff;
+}
+
+table.width-100 {
+    width: 100%;
+}
+
+/*******************************************
+* Content Table under Navbar               *
+*******************************************/
+
+table.content-table {
+    width: 100%;
+    position: relative; 
+    top: 90px;
+}
+
+td.padding-0 {
+    padding: 0;
+}
+
+div#streamgraph-container {
+    height: 580px; 
+    min-width: 310px;
+}
+
+tbody.coinlists {
+    height: 1370px; 
+    overflow: hidden;
+}
+
+tbody.coinlists td.coin {
+    width: 192px;
+}
+
